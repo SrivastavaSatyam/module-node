@@ -1,5 +1,5 @@
 {
-  "name": "module-node",
+  "name": "publish-module-node",
   "version": "1.0.0",
   "description": "Trying publishing node modules on npm",
   "main": "lib/index.js",
