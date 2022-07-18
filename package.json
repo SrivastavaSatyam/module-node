@@ -1,0 +1,29 @@
+{
+  "name": "module-node",
+  "version": "1.0.0",
+  "description": "Trying publishing node modules on npm",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrivastavaSatyam/module-node.git"
+  },
+  "keywords": [
+    "npm publish",
+    "npm publish module"
+  ],
+  "author": "Satyam <srivastava6808@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SrivastavaSatyam/module-node/issues"
+  },
+  "homepage": "https://github.com/SrivastavaSatyam/module-node#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": ["lib/**/*"]
+}
